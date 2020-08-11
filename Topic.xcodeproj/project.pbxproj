@@ -21,6 +21,7 @@
 		768C976024B2D39600635ED7 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C975F24B2D39600635ED7 /* Dog.m */; };
 		768C976624B2D63800635ED7 /* Doggy.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C976524B2D63700635ED7 /* Doggy.m */; };
 		768C976A24B3291B00635ED7 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 768C976924B3291B00635ED7 /* Model.m */; };
+		769CF58624E13EFA0018285D /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 769CF58524E13EFA0018285D /* ViewController5.m */; };
 		76AC27E424BC40310011D429 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC27E324BC40310011D429 /* ViewController4.m */; };
 		76AC27EA24BC40C20011D429 /* UIControl+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AC27E924BC40C20011D429 /* UIControl+Extention.m */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,8 @@
 		768C976724B2D64100635ED7 /* Doggy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Doggy.cpp; sourceTree = "<group>"; };
 		768C976824B3291B00635ED7 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		768C976924B3291B00635ED7 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		769CF58424E13EFA0018285D /* ViewController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		769CF58524E13EFA0018285D /* ViewController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
 		76AC27E224BC40310011D429 /* ViewController4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
 		76AC27E324BC40310011D429 /* ViewController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 		76AC27E824BC40C20011D429 /* UIControl+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extention.h"; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 		768C971C24B2C86F00635ED7 /* Topic */ = {
 			isa = PBXGroup;
 			children = (
+				769CF58324E13ECD0018285D /* 题目5 */,
 				76AC27E124BC40220011D429 /* 题目4 */,
 				768C975424B2CD0800635ED7 /* 题目3 */,
 				768C975324B2CD0200635ED7 /* 题目2 */,
@@ -193,6 +197,15 @@
 				768C976924B3291B00635ED7 /* Model.m */,
 			);
 			path = "题目3";
+			sourceTree = "<group>";
+		};
+		769CF58324E13ECD0018285D /* 题目5 */ = {
+			isa = PBXGroup;
+			children = (
+				769CF58424E13EFA0018285D /* ViewController5.h */,
+				769CF58524E13EFA0018285D /* ViewController5.m */,
+			);
+			path = "题目5";
 			sourceTree = "<group>";
 		};
 		76AC27E124BC40220011D429 /* 题目4 */ = {
@@ -344,6 +357,7 @@
 				768C975A24B2CD2000635ED7 /* ViewController2.m in Sources */,
 				768C976624B2D63800635ED7 /* Doggy.m in Sources */,
 				768C976024B2D39600635ED7 /* Dog.m in Sources */,
+				769CF58624E13EFA0018285D /* ViewController5.m in Sources */,
 				768C971F24B2C86F00635ED7 /* AppDelegate.m in Sources */,
 				768C973024B2C87000635ED7 /* main.m in Sources */,
 				76AC27EA24BC40C20011D429 /* UIControl+Extention.m in Sources */,

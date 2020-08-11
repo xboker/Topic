@@ -11,6 +11,7 @@
 #import "ViewController2.h"
 #import "ViewController3.h"
 #import "ViewController4.h"
+#import "ViewController5.h"
 
 @interface ViewController ()
 
@@ -38,6 +39,11 @@
 
 - (IBAction)topic4:(id)sender {
     ViewController4 *c = [[ViewController4 alloc] init];
+    [self.navigationController pushViewController:c animated:YES];
+}
+
+- (IBAction)topic5:(id)sender {
+    ViewController5 *c = [[ViewController5 alloc] init];
     [self.navigationController pushViewController:c animated:YES];
 }
 
